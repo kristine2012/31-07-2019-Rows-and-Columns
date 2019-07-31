@@ -1,0 +1,44 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+
+	background: violet; /* color names */
+	background: #ECD6E9;
+	background:
+	background:
+}
+
+.myImages{
+	width: 100%;
+	margin:0 auto;
+}
+
+.row{
+	width: 100%;
+	height: 800px;
+	/*border: 20px solid white;*/
+}
+
+.col{
+	width: 30%;
+	height: 100%;
+	float: left;
+	padding: 60px 20px;
+	border: 2px solid blue;
+	margin:10px 1%;
+	/*border: 2px solid ;*/
+}
+
+.row::after{
+	clear:both;
+}
+
+.mypara{
+	font: 20px;
+	margin: 20px 0px;
+}
+
+
